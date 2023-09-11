@@ -17,7 +17,7 @@ function updateView() {
 let html = /*HTML*/ `
 <div>
     <div class="container">
-        <img src="/img/${pokemonArray[randomNum] || "rattata"}.png">
+        <img src="img/${pokemonArray[randomNum] || "rattata"}.png">
     </div>
     <button onClick="catchPokemon()">Catch</button>
     <button onClick="runAway()">Run</button><br>
